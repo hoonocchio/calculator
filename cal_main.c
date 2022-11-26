@@ -4,16 +4,16 @@
 
 int main(int argc, char *argv[]){
     
-    int a = atoi(argv[1]);
-    int b = atoi(argv[2]);
+    int x = atoi(argv[1]);
+    int y = atoi(argv[2]);
     printf("<===============>\n");
     printf("<===============>\n");
     printf("<===============>\n");
     printf("<===============>\n");
-    printf("%d + %d => %d\n", a, b, add(a, b));
-    printf("%d - %d => %d\n", a, b, sub(a, b));
-    printf("%d * %d => %d\n", a, b, mul(a, b));
-    printf("%d / %d => %d\n", a, b, dur(a, b));
+    printf("%d + %d => %d\n", x, y, add(x, y));
+    printf("%d - %d => %d\n", x, y, sub(x, y));
+    printf("%d * %d => %d\n", x, y, mul(x, y));
+    printf("%d / %d => %d\n", x, y, dur(x, y));
     printf("===============\n");
 
     return 0;
